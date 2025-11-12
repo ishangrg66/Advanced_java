@@ -1,7 +1,10 @@
 package testingCheckbox;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+import javax.swing.JCheckBox;
+import java.awt.FlowLayout;
+import java.awt.Font;
 import java.awt.event.ItemListener;
 import java.awt.event.ItemEvent;
 
