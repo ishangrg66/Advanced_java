@@ -8,8 +8,8 @@ import javax.swing.JPanel;
 public class FontJPanel extends JPanel {
     public void paintComponent(Graphics g){
         super.paintComponent(g);
-        g.setFont(new Font("Arial", Font.BOLD, 20));
-        g.drawString("Serif 20 bold",20,30);
+        g.setFont(new Font("Nirmala UI", Font.BOLD, 20));
+        g.drawString("मेरो देश नेपाल हो।",20,30);
         g.setFont(new Font("Moonspaced",Font.ITALIC,24));
         g.drawString("Moonspaced 24 point italic",20,50);
         g.setFont(new Font("SansSerif",Font.PLAIN,14));
